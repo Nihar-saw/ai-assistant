@@ -35,8 +35,8 @@ model = genai.GenerativeModel('gemini-1.5-flash')
 chat_session = model.start_chat(history=[])
 
 # --- Spotify Setup ---
-SPOTIPY_CLIENT_ID = 'accd5b5c818841a682e09adc2af502e5'
-SPOTIPY_CLIENT_SECRET = '4897727e50c2414c963f96b19656c4b3'
+SPOTIPY_CLIENT_ID = ''
+SPOTIPY_CLIENT_SECRET = ''
 SPOTIPY_REDIRECT_URI = 'http://127.0.0.1:8888/callback'
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
