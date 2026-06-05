@@ -28,7 +28,7 @@ from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
 import apps # Ensure apps.py exists with launch_app() function
 
 # --- Config & AI Setup ---
-GEMINI_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyABhfNpx1VOO_eHnKDq9cRf95R1mZXy9Xo")
+GEMINI_KEY = os.environ.get("GEMINI_API_KEY", "Your API Key Here")
 genai.configure(api_key=GEMINI_KEY)
 
 model = genai.GenerativeModel('gemini-1.5-flash')
